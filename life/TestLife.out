@@ -1,0 +1,125 @@
+==32048== Memcheck, a memory error detector
+==32048== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==32048== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==32048== Command: TestLife
+==32048== 
+Running main() from gtest_main.cc
+[==========] Running 45 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 18 tests from Life
+[ RUN      ] Life.print_conway
+[       OK ] Life.print_conway (90 ms)
+[ RUN      ] Life.print_fredkin
+[       OK ] Life.print_fredkin (61 ms)
+[ RUN      ] Life.read_file
+[       OK ] Life.read_file (39 ms)
+[ RUN      ] Life.read_file_multi
+[       OK ] Life.read_file_multi (21 ms)
+[ RUN      ] Life.read_file_multi2
+[       OK ] Life.read_file_multi2 (31 ms)
+[ RUN      ] Life.read_conway
+[       OK ] Life.read_conway (7 ms)
+[ RUN      ] Life.read_fredkin
+[       OK ] Life.read_fredkin (5 ms)
+[ RUN      ] Life.read1
+[       OK ] Life.read1 (7 ms)
+[ RUN      ] Life.read2
+[       OK ] Life.read2 (6 ms)
+[ RUN      ] Life.read3
+[       OK ] Life.read3 (12 ms)
+[ RUN      ] Life.count1
+[       OK ] Life.count1 (5 ms)
+[ RUN      ] Life.count2
+[       OK ] Life.count2 (5 ms)
+[ RUN      ] Life.count3
+[       OK ] Life.count3 (5 ms)
+[ RUN      ] Life.count4
+[       OK ] Life.count4 (5 ms)
+[ RUN      ] Life.count5
+[       OK ] Life.count5 (5 ms)
+[ RUN      ] Life.count6
+[       OK ] Life.count6 (5 ms)
+[ RUN      ] Life.get_neighbors1
+[       OK ] Life.get_neighbors1 (20 ms)
+[ RUN      ] Life.get_neighbors2
+[       OK ] Life.get_neighbors2 (21 ms)
+[----------] 18 tests from Life (364 ms total)
+
+[----------] 1 test from Cell
+[ RUN      ] Cell.constructors
+[       OK ] Cell.constructors (22 ms)
+[----------] 1 test from Cell (22 ms total)
+
+[----------] 10 tests from AbstractCell
+[ RUN      ] AbstractCell.create
+[       OK ] AbstractCell.create (4 ms)
+[ RUN      ] AbstractCell.create2
+[       OK ] AbstractCell.create2 (3 ms)
+[ RUN      ] AbstractCell.create3
+[       OK ] AbstractCell.create3 (4 ms)
+[ RUN      ] AbstractCell.create4
+[       OK ] AbstractCell.create4 (4 ms)
+[ RUN      ] AbstractCell.create5
+[       OK ] AbstractCell.create5 (3 ms)
+[ RUN      ] AbstractCell.create6
+[       OK ] AbstractCell.create6 (3 ms)
+[ RUN      ] AbstractCell.deref1
+[       OK ] AbstractCell.deref1 (4 ms)
+[ RUN      ] AbstractCell.deref2
+[       OK ] AbstractCell.deref2 (4 ms)
+[ RUN      ] AbstractCell.deref3
+[       OK ] AbstractCell.deref3 (3 ms)
+[ RUN      ] AbstractCell.deref4
+[       OK ] AbstractCell.deref4 (3 ms)
+[----------] 10 tests from AbstractCell (38 ms total)
+
+[----------] 9 tests from ConwayCell
+[ RUN      ] ConwayCell.evolve1
+[       OK ] ConwayCell.evolve1 (10 ms)
+[ RUN      ] ConwayCell.evolve_left
+[       OK ] ConwayCell.evolve_left (10 ms)
+[ RUN      ] ConwayCell.simulate
+[       OK ] ConwayCell.simulate (21 ms)
+[ RUN      ] ConwayCell.simulate_left
+[       OK ] ConwayCell.simulate_left (7 ms)
+[ RUN      ] ConwayCell.simulate_top
+[       OK ] ConwayCell.simulate_top (7 ms)
+[ RUN      ] ConwayCell.simulate_bottom
+[       OK ] ConwayCell.simulate_bottom (7 ms)
+[ RUN      ] ConwayCell.simulate_right
+[       OK ] ConwayCell.simulate_right (6 ms)
+[ RUN      ] ConwayCell.simulate_full
+[       OK ] ConwayCell.simulate_full (6 ms)
+[ RUN      ] ConwayCell.evolve_quiz32
+[       OK ] ConwayCell.evolve_quiz32 (8 ms)
+[----------] 9 tests from ConwayCell (84 ms total)
+
+[----------] 7 tests from FredkinCell
+[ RUN      ] FredkinCell.evolve1
+[       OK ] FredkinCell.evolve1 (13 ms)
+[ RUN      ] FredkinCell.simulate
+[       OK ] FredkinCell.simulate (28 ms)
+[ RUN      ] FredkinCell.simulate_left
+[       OK ] FredkinCell.simulate_left (8 ms)
+[ RUN      ] FredkinCell.simulate_right
+[       OK ] FredkinCell.simulate_right (8 ms)
+[ RUN      ] FredkinCell.simulate_top
+[       OK ] FredkinCell.simulate_top (8 ms)
+[ RUN      ] FredkinCell.simulate_bottom
+[       OK ] FredkinCell.simulate_bottom (8 ms)
+[ RUN      ] FredkinCell.simulate_full
+[       OK ] FredkinCell.simulate_full (8 ms)
+[----------] 7 tests from FredkinCell (82 ms total)
+
+[----------] Global test environment tear-down
+[==========] 45 tests from 5 test cases ran. (635 ms total)
+[  PASSED  ] 45 tests.
+==32048== 
+==32048== HEAP SUMMARY:
+==32048==     in use at exit: 0 bytes in 0 blocks
+==32048==   total heap usage: 2,674 allocs, 2,674 frees, 270,064 bytes allocated
+==32048== 
+==32048== All heap blocks were freed -- no leaks are possible
+==32048== 
+==32048== For counts of detected and suppressed errors, rerun with: -v
+==32048== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)

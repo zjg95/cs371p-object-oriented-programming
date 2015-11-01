@@ -1,0 +1,186 @@
+commit 4a5ae06314d839967a57ded5ecda0f0e222c9018
+Author: marklaver <crusherven@yahoo.com>
+Date:   Sat Apr 25 21:45:42 2015 -0500
+
+    Added Doxygen, fixes #9
+
+commit fe1f6e1a23987b740a23861100d03f7ebc6f9382
+Author: marklaver <crusherven@yahoo.com>
+Date:   Sat Apr 25 21:41:26 2015 -0500
+
+    Cleaned up code
+
+commit cdd962e79d0e7ea8ba443baf5203850faf5b4284
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 25 19:11:36 2015 -0500
+
+    another commit
+
+commit 3ec7b5c287726104899a6571c76c42ffc24a0ea0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 25 18:36:49 2015 -0500
+
+    updated cell constructor
+
+commit 40bd5122f5a5b33f28a1da1ad05190434900d4f2
+Author: marklaver <crusherven@yahoo.com>
+Date:   Sat Apr 25 17:04:52 2015 -0500
+
+    added 8 tests
+
+commit 2818ae8ef1dc6e8b7fa09321c9a3ee0afc5cc1ee
+Author: marklaver <crusherven@yahoo.com>
+Date:   Sat Apr 25 17:00:07 2015 -0500
+
+    added friend_tests
+
+commit 2970517b3819e7fd17c2a2133af373c1c3f1de90
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 25 16:50:24 2015 -0500
+
+    all tests passing
+
+commit 561e3494b247f5777fedfd696205e9c69ed06a0c
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 25 16:38:25 2015 -0500
+
+    updated the constructor for fredkincell, all tests passing.
+
+commit ef3295c292a816032dc1e29ba087fcd789461922
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 25 16:30:44 2015 -0500
+
+    added a destructor to abstractcell, fixes #23
+
+commit d49ce55b2a28caf42b80d36723f68b3f6cefd9c3
+Author: marklaver <crusherven@yahoo.com>
+Date:   Sat Apr 25 15:51:42 2015 -0500
+
+    Added tests. Created UML diagram. Fixes #8
+
+commit 8bdcbbfb26b9b29be022be3bbb3efb5249d55f28
+Author: marklaver <crusherven@yahoo.com>
+Date:   Sat Apr 25 14:20:41 2015 -0500
+
+    Merged Grid and Life classes
+
+commit 22e3124a78e27bef47054f8fbe4797c93c01abbf
+Author: marklaver <crusherven@yahoo.com>
+Date:   Fri Apr 24 17:41:54 2015 -0500
+
+    Added comments and modified some tests to conform to correct syntax.
+
+commit 9b0c43fee9914af8ebf35e88cf3059747629d601
+Author: marklaver <crusherven@yahoo.com>
+Date:   Fri Apr 24 15:37:26 2015 -0500
+
+    Attempted to implement Cell parsing, currently segfaults
+
+commit ad40d777c3f3dfd20fe7baa2bcdf0f6a3b54fd72
+Author: marklaver <crusherven@yahoo.com>
+Date:   Fri Apr 24 14:15:30 2015 -0500
+
+    Implemented operator=() method for Grid, fixes #21
+
+commit f721f109a0dd597cf00747b66ec6980cf904cb55
+Merge: 71fcbad 5d4f96c
+Author: marklaver <crusherven@yahoo.com>
+Date:   Fri Apr 24 13:28:58 2015 -0500
+
+    Merge branch 'master' of https://github.com/zjg95/cs371p-life
+
+commit 71fcbada5792540ce572a7e7aa80309f2a70cc04
+Author: marklaver <crusherven@yahoo.com>
+Date:   Fri Apr 24 13:28:18 2015 -0500
+
+    Changed array[][] to double vector. Fixes Fredkin input issue.
+
+commit 5d4f96cfa4ce6b4e9df207cf242c7d9ea72ec45f
+Author: marklaver <marklaver@users.noreply.github.com>
+Date:   Fri Apr 24 12:49:34 2015 -0500
+
+    Delete .nfs0000000004f9f0d200000008
+
+commit 9b7f86d3cc2654f077a14617d28506b930bf6320
+Author: marklaver <crusherven@yahoo.com>
+Date:   Fri Apr 24 12:32:09 2015 -0500
+
+    removing extra file
+
+commit 76555dd4c4fcb774a77570e9249e7fff46a66285
+Author: marklaver <crusherven@yahoo.com>
+Date:   Thu Apr 23 18:20:38 2015 -0500
+
+    fixed some test cases based on previous function changes
+
+commit d87023fe04793498b6f441483a1885d52eefc7e1
+Author: marklaver <crusherven@yahoo.com>
+Date:   Thu Apr 23 17:45:33 2015 -0500
+
+    Separated printing and simulating funcitonality. Fixes #20
+
+commit ceb02e9067bd54e04d93e88b4ec772e7205c0b65
+Author: marklaver <crusherven@yahoo.com>
+Date:   Thu Apr 23 17:11:41 2015 -0500
+
+    Renamed x's and y's to row and col and swapped order where appropriate.  Fixes #19
+
+commit 0fd67821367be0bc140fbfe5a04d551d19531624
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Apr 20 22:30:46 2015 -0500
+
+    updated parsing. constructors will work well.
+
+commit aa7af6bcd69e6123d8ea9d8435c767441beb67f7
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Apr 20 22:20:55 2015 -0500
+
+    updated life read constructors
+
+commit 4a0355e21c189a21d09a26bceefc78d524b74e71
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Apr 20 21:00:57 2015 -0500
+
+    updated print method; removed the rows/columns
+
+commit cb4f9df4c2a32d53cda0aa01d701fe391031fdbb
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Apr 19 16:12:23 2015 -0500
+
+    simulate is working
+
+commit 42853c65e52137fe44cc9fb3ea9a1fccd5c08860
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Apr 19 15:11:10 2015 -0500
+
+    polished the printing methods. evolve is working.
+
+commit ca8533014866431cf27d7034b9024365dfacd1fb
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 18 16:55:50 2015 -0500
+
+    implemented simple solution for evolution of cells. untested.
+
+commit 57f661fa5d73e83b2af00ae5c8bfc2eba04eefd3
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 18 15:20:09 2015 -0500
+
+    ready to start evolution methods
+
+commit 71a4e09c61ce5320f27a0a0f21767f82821821e7
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 18 14:26:43 2015 -0500
+
+    completed the read and write methods for life
+
+commit 97e4a843fa7e1d3d0e2d9d183d2a4c28bf0ee22f
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Apr 16 23:30:24 2015 -0500
+
+    added basic skeleton code
+
+commit c69a69ac8d44943f0956080a21f140909941ff01
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Apr 14 20:34:47 2015 -0500
+
+    first commit
