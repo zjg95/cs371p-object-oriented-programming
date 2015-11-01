@@ -1,0 +1,107 @@
+commit 5550701e9ecf28556f4eb703a0ca3a8c8361f1eb
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Mar 26 14:35:50 2015 -0500
+
+    fixes #8 obtained the git log
+
+commit f271891e5d65a220d52c0b112b636788406c9287
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Mar 26 14:31:57 2015 -0500
+
+    fixes #7 fixes #18 added the .out file and the doxygen
+
+commit 0dc96156e2f514a56a41dd23513482e72f4349e8
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Mar 26 14:23:15 2015 -0500
+
+    fixes #19 #20 removed print statements and included documentation.
+
+commit 28a76f84513ab2c387c7c565f59d820477850fcc
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Mar 23 21:53:00 2015 -0500
+
+    updated deallocate to check validity of sentinels
+
+commit e624e628945e4946bf21350727600d1206cca3fc
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Mar 22 15:53:04 2015 -0500
+
+    fixes #13 valid appears to be working. all methods are complete and functional. TODO: redo the tests so that they don't use the [] operator
+
+commit 033c775d00be8ed1483c864139f640a2dd41580b
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Mar 22 14:25:58 2015 -0500
+
+    added the invalid_argument exception to deallocate
+
+commit 0e570dd4284986a321982036c5d0bebbe3a3e94c
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Mar 22 14:15:29 2015 -0500
+
+    fixes #12 the deallocate method appears to be working perfectly.
+
+commit 1940c074aad078f6751cc82467d3e7bfd3ea5519
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Mar 21 23:35:53 2015 -0500
+
+    redid the deallocate method, the problem is in the get_farthest_index method
+
+commit 75eb21899c66a6f6af8a1b6b02abe8d6e8e55810
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Mar 21 20:35:43 2015 -0500
+
+    something is not right with the deallocation merge algorithm. gonna try a different approach and see what happens
+
+commit 33b846711c2d9155058fd1ea1f2aa74501bbf764
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Mar 21 18:36:57 2015 -0500
+
+    merging two open blocks causes a seg fault
+
+commit c51563667fa1657eee9366731d1fc5290a9895f8
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Mar 21 16:33:05 2015 -0500
+
+    simple solution for deallocate
+
+commit de79a3203b577456a6939a1761b80a999a92748d
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Mar 21 15:46:30 2015 -0500
+
+    added the bad_alloc exception, added tests for the exception. done with allocator() and allocate()
+
+commit ce9177419a10e8a58e536e69d7618f8a5d18b1c5
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Mar 21 14:41:52 2015 -0500
+
+    fixes #11 updated test cases and print_array()
+
+commit a14eaf0b5b7a7be0c9e4bed0b3d347f918c591d0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Mar 20 22:58:59 2015 -0500
+
+    updated allocate method to allow multiple iterations
+
+commit 73bd31522ae28956b6dc7b5d9f52c9cdb4c1865f
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Mar 20 22:55:00 2015 -0500
+
+    basic allocations working. still need to do valid() and deallocate()
+
+commit 976d88b03d74b38129c343f8cede12c666498550
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Mar 18 16:48:41 2015 -0500
+
+    updated files
+
+commit 71a73476a2f6a0a9fde1eb32c4e98f55d3c96dcd
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Mar 18 15:27:18 2015 -0500
+
+    added log file, updated makefile
+
+commit 4fb33c1eb45f500f15fc2c5012ee8806bdf0c88e
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Mar 18 15:23:53 2015 -0500
+
+    first commit
