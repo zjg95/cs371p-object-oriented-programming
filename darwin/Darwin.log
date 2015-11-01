@@ -1,0 +1,71 @@
+commit 1bbc65f09140f87fc459ac3a0b4971617e53bc5c
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Apr 9 19:03:14 2015 -0500
+
+    final upload
+
+commit ec291de558d04ac5557f4627963369110e1ccf1f
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Apr 9 03:16:18 2015 -0500
+
+    project practically done. fixes #17
+
+commit 41fce40b7dca21950ded3f6a5b9ee648735cadce
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Apr 9 02:23:12 2015 -0500
+
+    everything seems to be working. time to do the RunDarwin.
+
+commit d171ed990840033b1fd9ff6b9709117791674009
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Apr 8 18:57:59 2015 -0500
+
+    added tests, creatures appear to be functional
+
+commit 88e44dbb15cf8ad47088ee57e59168be673f3333
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Apr 8 18:22:22 2015 -0500
+
+    the move simulator appears to be working
+
+commit e67de97e67ddc417f339af03c935a54aeccb6409
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Apr 8 01:36:57 2015 -0500
+
+    fixes #13 updated tests, implemented a simple interpreter to allow creatures to execute their code.
+
+commit 3466d04946b9a7fc10b9528b7c05931cda082470
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Apr 7 03:38:22 2015 -0500
+
+    added to the add/get_instruction methods of the species class.
+
+commit e2a358eee1e1f7faa41fdb65e8c47e567ebdd377
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Apr 7 02:53:30 2015 -0500
+
+    fixes #12 added additional methods to the classes. switched from a vector to a list.
+
+commit 346757b2a612a2a2e61deac59ee17bbcf9651eee
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Apr 4 23:36:12 2015 -0500
+
+    modified species class.
+
+commit 2ecd31410d720d437385f7cbec385e209ec10df9
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Apr 3 16:13:36 2015 -0500
+
+    added skeleton code/skeleton tests
+
+commit 031ac68b6a02ee659d0da44e350b096628958e92
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Mar 29 16:13:10 2015 -0500
+
+    changed name of RunDarwin.out
+
+commit 16c77475d626d31141c8e56b100706e010e7cb6b
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Mar 29 16:10:25 2015 -0500
+
+    first commit
