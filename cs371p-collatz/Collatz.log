@@ -1,0 +1,65 @@
+commit 86c972322a9dde2b023da387fb4ffcfc48e1ad21
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Feb 4 15:08:00 2015 -0600
+
+    done with project
+
+commit d7ab380961f3b5eec9dc06ff3b018219beff451f
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Feb 4 14:43:59 2015 -0600
+
+    implemented cache; sphere accepts answer.
+
+commit c4df7b5ce35922e865f622e523d818efcdeab17a
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Feb 4 13:34:35 2015 -0600
+
+    sphere has accepted the solution.
+
+commit d7a792f1c26900fab75ef0bd1e950645d69f9f3f
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Feb 3 20:48:45 2015 -0600
+
+    final commit for the day
+
+commit c057d87ee8f714b1724adcb9c1c9ba44f96261b5
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Feb 3 20:01:33 2015 -0600
+
+    added SphereCollatz.c++
+
+commit e0dd3156ddace19342cb5860e26554cafc2023a7
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Feb 3 19:58:03 2015 -0600
+
+    simple solution added. tests passing.
+
+commit d9bd2a6bdd050f9bb87d863af8e2416d78f747e5
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Feb 3 19:32:34 2015 -0600
+
+    updated names of input/output files
+
+commit fce3b934c3159f9856b7b05bb50e9f29dfbbcc95
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Feb 3 19:31:35 2015 -0600
+
+    updated unit tests. all are failing. still have yet to implement a solution.
+
+commit 255fc29c4c6423fb7b925f5cba961c330d788371
+Author: foul <foul@virtual.(none)>
+Date:   Mon Feb 2 19:58:16 2015 -0600
+
+    added the input/output files
+
+commit caf289da82154932c811aa30b4ac426423b661d8
+Author: foul <foul@virtual.(none)>
+Date:   Mon Feb 2 19:57:00 2015 -0600
+
+    updated the files. before I was using strange html versions. now there's actual code.
+
+commit 7a12359fdfd74f90c106dd5b818dbea0df19f3cf
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Feb 2 19:13:27 2015 -0600
+
+    first commit
